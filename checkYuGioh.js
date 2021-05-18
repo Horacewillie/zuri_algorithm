@@ -1,7 +1,7 @@
 function check(n) {
   let arr = [];
   if (!Number(n)) {
-    return `invalid parameter: ${n}`;
+    return `Invalid parameter: ${n}`;
   }
   for (let i = 1; i <= n; i++) {
     if (i % 30 === 0) {
