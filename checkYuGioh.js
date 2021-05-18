@@ -1,7 +1,7 @@
 function check(n) {
   let arr = [];
   if (!Number(n)) {
-    return "invalid string";
+    return `invalid parameter: ${n}`;
   }
   for (let i = 1; i <= n; i++) {
     if (i % 30 === 0) {
@@ -26,4 +26,4 @@ function check(n) {
   return arr;
 }
 
-console.log(check("30"));
+console.log(check("kkekek"));
